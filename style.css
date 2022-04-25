@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'escrita';
+    src: url(../fonts/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
+}
+
+@font-face {
+    font-family: 'avenger';
+    src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER.otf);
+}
+
+
+@font-face {
+    font-family: 'ROMANTICE', 'Avenger';
+    src: url(../fonts/ROMANTICE.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-image: linear-gradient(to right, #7A2525, #AD3434  );
+}
+main{
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 5px 10px 20px #60000091 ;
+    width: 400px;
+    padding: 10%;
+    margin: auto;
+}
+h1{
+    color: #FA0000;
+   font-family: 'Georgia'; 
+   text-align: center;
+   text-shadow: 0.5px 2px 2px #420000;
+}
+h2{
+    font-family: Georgia, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'arial';
+    text-align: justify;
+    
+}
+ol {
+    font-family: 'arial';
+    
+}
+li {
+    font-family: 'arial';
+    text-align: left;
+}
